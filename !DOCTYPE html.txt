@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Digital Products Store</title>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Digital Store</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#" role="button">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Welcome to Our Digital Store</h2>
+                    <h3>Find Your Perfect Digital Product</h3>
+                </hgroup>
+                <p>Explore our wide range of digital products including e-books, software, and online courses. Enhance your skills and knowledge with our top-quality offerings.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/random/400x300?product" alt="Featured Product" />
+                    <figcaption><a href="#" target="_blank">Discover More</a></figcaption>
+                </figure>
+                <h3>Best Sellers</h3>
+                <p>Check out our best-selling digital products that our customers love. Find what suits you best and start learning today.</p>
+                <h3>Why Choose Us?</h3>
+                <p>We offer a variety of digital products to cater to your learning and software needs. Our products are curated from the best sources to ensure high quality and satisfaction.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Stay Updated</h2>
+                    <h3>Subscribe to Our Newsletter</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
+                    <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required />
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small>
+            <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a>
+        </small>
+    </footer>
+</body>
+</html>
